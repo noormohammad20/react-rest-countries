@@ -10,7 +10,7 @@ const Countries = () => {
     }, [])
     return (
         <div>
-            <h1>Hello Form Countries: {Countries.length}</h1>
+            <h2>Hello Form Countries: {Countries.length}</h2>
             <div className='countries-container'>
                 {
                     Countries.map(country => <Country
