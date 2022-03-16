@@ -12,11 +12,7 @@ const Countries = () => {
         <div>
             <h1>Hello Form Countries: {Countries.length}</h1>
             {
-                Countries.map(country => <Country
-                    name={country.name.common}
-                    area={country.area}
-                    population={country.population}>
-                </Country>)
+                Countries.map(country => <Country country={country}></Country>)
 
 
             }
